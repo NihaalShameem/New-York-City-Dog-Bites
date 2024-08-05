@@ -14,7 +14,7 @@ This dashboard will not only highlight top biters but also offer actionable insi
 
 ## Plan
 **Objective:** Assist prospective dog owners about dog breeds and ages by analyzing dog bite incident data from New York City Open Data.
-###**Phases:**
+### **Phases:**
 **Data Acquisition:** - Download and import data into Google Sheets for initial review
 **Data Cleaning and Preprocessing:** - Address missing values, duplicate values, incorrect values and standardize formats in Python.
 **Data Analysis:** - Conduct exploratory data analysis using Python (Pandas, numpy, Seaborn, Matplotlib)
