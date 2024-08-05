@@ -30,7 +30,19 @@ This dashboard will not only highlight top biters but also offer actionable insi
 - Data-driven recommendations for dog owners<br>
 
 ## Analyze 
-In the anlysis phase I began cleaning the data. This includes removing any duplicate values, null values, outliers, and potentially misleading data that would skew my results. I also used many advanced level formulas such as if statements, vlookups, conditional formatting to put the data into the correct form to start analyzing it. Then, I began to go into exploratory data analysis with the help of pivot tables so I could find trends and insights that I felt were excting to share and to put in my visualizations. Once I formualted what I wanted to show visually it was time to construct it. 
+In the analyze phase we want to make sense of the data we have given and begin cleaning up the file in order for us to extract valuable information about dog bites. This includes import necessary packages needed for our analysis. In this case we needed pandas, numpy, matplotlib, seaborn, and datetime. Using pandas we imported our dataset and looked at the first 10 rows. We then moved forward with doing the following; gathered info and descriptive statistics using pandas built in functions .info() and .describe(). 
+![Screenshot 2024-08-05 134843](https://github.com/user-attachments/assets/a93a7472-d938-418c-ba41-ce4e741141c4) <br>
+***From the descriptive statistics, we observed the following:***
+- **September 16th, 2017**, had the most dog bites on a single day.
+- **Pit Bulls** were the top breed involved in bites.
+- **Queens** had the highest frequency of dog bites among all boroughs.
+
+## Data Cleaning 
+From the two screenshots we see there are a number of object variable types. Object data types are stored as text(str) and these can take a lot of memory. To resolve this we can change these columns to category as they can be considered as categories as this will save up a lot of space. We can also change the `DateOfBite` variable to be datetime value so we can further manipulate that column to extract the month as well as the year to get deeper analysis. Also lets delete the `Species` column as they are all dogs. Lets implement those changes into our dataset. 
+![Screenshot 2024-08-05 135656](https://github.com/user-attachments/assets/0ed634ed-0a3d-4fb2-a459-cd439ed26f24)
+
+
+
 
 ## Construct 
 After the data was cleaned, exploratory data analysis within Google Sheets with the help of pivot tables, allows a visual representation of insights. For this project I used Google Data Studio which is now refered to as Looker Studio. Within this dataset I provided many visualizations such as tables, bar graphs, heat map, and straight text. Using this dashboard I am able to share my findings. 
