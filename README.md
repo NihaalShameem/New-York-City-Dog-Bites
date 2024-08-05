@@ -42,6 +42,7 @@ From the two screenshots we see there are a number of object variable types. Obj
 ![Screenshot 2024-08-05 135656](https://github.com/user-attachments/assets/0ed634ed-0a3d-4fb2-a459-cd439ed26f24)
 ![image](https://github.com/user-attachments/assets/92e4d3d6-1dbf-43a2-a1cb-8a073b3a79d4)
 
+Last thing that needs to be fixed is our `age` variable, there are many inconsistent values. 
 
 
 
