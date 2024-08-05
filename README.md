@@ -15,19 +15,19 @@ This dashboard will not only highlight top biters but also offer actionable insi
 ## Plan
 **Objective:** Assist prospective dog owners about dog breeds and ages by analyzing dog bite incident data from New York City Open Data.
 ### **Phases:**
-**Data Acquisition:** - Download and import data into Google Sheets for initial review
-**Data Cleaning and Preprocessing:** - Address missing values, duplicate values, incorrect values and standardize formats in Python.
+**Data Acquisition:** - Download and import data into Google Sheets for initial review <br>
+**Data Cleaning and Preprocessing:** - Address missing values, duplicate values, incorrect values and standardize formats in Python.<br>
 **Data Analysis:** - Conduct exploratory data analysis using Python (Pandas, numpy, Seaborn, Matplotlib)
-                   - Create visualizations to highlight key insights
+                   - Create visualizations to highlight key insights<br>
 **Tools and Technologies:** 
-**Languages:** Python, Google Sheets
-**Libraries:** Pandas, NumPy, Seaborn, Matplotlib, datetime
-**Data Management:** Google Sheets
-**Visualization:** Seaborn, Matplotlib, Looker Studio
+**Languages:** Python, Google Sheets<br>
+**Libraries:** Pandas, NumPy, Seaborn, Matplotlib, datetime<br>
+**Data Management:** Google Sheets<br>
+**Visualization:** Seaborn, Matplotlib, Looker Studio<br>
 **Expected Outcome:**
-- Analysis of Dog Bite Incidents in Python with Insights
-- Visual Interactive Dashboard
-- Data-driven recommendations for dog owners
+- Analysis of Dog Bite Incidents in Python with Insights<br>
+- Visual Interactive Dashboard<br>
+- Data-driven recommendations for dog owners<br>
 
 ## Analyze 
 In the anlysis phase I began cleaning the data. This includes removing any duplicate values, null values, outliers, and potentially misleading data that would skew my results. I also used many advanced level formulas such as if statements, vlookups, conditional formatting to put the data into the correct form to start analyzing it. Then, I began to go into exploratory data analysis with the help of pivot tables so I could find trends and insights that I felt were excting to share and to put in my visualizations. Once I formualted what I wanted to show visually it was time to construct it. 
