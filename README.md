@@ -4,11 +4,30 @@
 #### Link to the original dataset -> [Original Dataset](https://data.cityofnewyork.us/Health/DOHMH-Dog-Bite-Data/rsgh-akpg)
 
 ## Background 
-As I have grown older, I developed a deep love for dogs, and now find them to be the perfect companions. However, it was not always this way, as I used to have a significant fear of dogs. I vividly recall a moment where I ran around in a circle, screaming, while being chased by a tiny, fluffy puppy. Nonetheless, my love for dogs has only increased and now I wish to use my passion to help others make data-driven decisions before adopting or purchasing a dog. By analyzing this data, I hope to uncover insights into when and why dogs bite and create a dashboard that others can use to make informed decisions regarding dog ownership. Whether a dog is on the top biters list or not, this information could be invaluable to those considering bringing a fury friend home.
+Project Overview: Enhancing Dog Ownership Decisions through Data Analysis
+
+As someone who has transformed a past fear of dogs into a profound passion for them, I now aim to leverage my enthusiasm to assist others in making informed decisions about dog ownership. This project is driven by my personal journey from a fearful encounter with a tiny, fluffy puppy to a deep love for dogs as perfect companions.
+
+I am developing a comprehensive data analysis project focused on understanding the factors contributing to dog bite incidents. By examining various datasets, I intend to uncover key insights into the circumstances and characteristics associated with dog bites. The ultimate goal is to create an interactive dashboard that provides valuable information to prospective dog owners, enabling them to make well-informed decisions before adopting or purchasing a dog.
+
+This dashboard will not only highlight top biters but also offer actionable insights for evaluating potential canine companions, ensuring a safer and more informed experience for future dog owners.
 
 ## Plan
-My goal with this dataset is to help people considering buying a dog, but who are not certain about the breed, age, and the possible violence associated with having a dog.
-I obtained this dataset through New York City Open data's website.(NYC) I will provide a link if interested in viewing the original dataset for yourself. I was able to download a .CSV of the data and imported it into a Google Sheets file where I can then begin the analyze phase of the project. 
+**Objective:** Assist prospective dog owners about dog breeds and ages by analyzing dog bite incident data from New York City Open Data.
+###**Phases:**
+**Data Acquisition:** - Download and import data into Google Sheets for initial review
+**Data Cleaning and Preprocessing:** - Address missing values, duplicate values, incorrect values and standardize formats in Python.
+**Data Analysis:** - Conduct exploratory data analysis using Python (Pandas, numpy, Seaborn, Matplotlib)
+                   - Create visualizations to highlight key insights
+**Tools and Technologies:** 
+**Languages:** Python, Google Sheets
+**Libraries:** Pandas, NumPy, Seaborn, Matplotlib, datetime
+**Data Management:** Google Sheets
+**Visualization:** Seaborn, Matplotlib, Looker Studio
+**Expected Outcome:**
+- Analysis of Dog Bite Incidents in Python with Insights
+- Visual Interactive Dashboard
+- Data-driven recommendations for dog owners
 
 ## Analyze 
 In the anlysis phase I began cleaning the data. This includes removing any duplicate values, null values, outliers, and potentially misleading data that would skew my results. I also used many advanced level formulas such as if statements, vlookups, conditional formatting to put the data into the correct form to start analyzing it. Then, I began to go into exploratory data analysis with the help of pivot tables so I could find trends and insights that I felt were excting to share and to put in my visualizations. Once I formualted what I wanted to show visually it was time to construct it. 
