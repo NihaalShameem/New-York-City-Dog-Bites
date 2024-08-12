@@ -60,8 +60,7 @@ Lastly lets see the unique age values within our dataset after cleaning the colu
 ![image](https://github.com/user-attachments/assets/c6d4365d-4f2a-449d-afb5-14bbef558140)
 
 **With our dataset cleaned and prepped, we save the updated dataset to a CSV file for further analysis and visualization using Tableau. This cleaned dataset will enable us to build a detailed dashboard and extract meaningful insights about dog bites.**
-![Screenshot 2024-07-04 171647](https://github.com/user-attachments/assets/fe21c3ed-5c0e-41e9-8862-fb4ce15ec9b6)
-
+![Screenshot 2024-07-04 171647](https://github.com/user-attachments/assets/93d4f9c3-6773-4db0-8716-ead0accf8187)
 
 ## Construct 
 After the data was cleaned, exploratory data analysis within Google Sheets with the help of pivot tables, allows a visual representation of insights. For this project I used Google Data Studio which is now refered to as Looker Studio. Within this dataset I provided many visualizations such as tables, bar graphs, heat map, and straight text. Using this dashboard I am able to share my findings. 
