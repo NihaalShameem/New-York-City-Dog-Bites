@@ -1,5 +1,5 @@
 # New-York-City-Dog-Bites
-#### This is a link to my report on New York Dog Bites! -> [Dashboard](https://lookerstudio.google.com/reporting/db272abe-77fe-4810-b35a-b548c44501c8)
+#### This is a link to my report on New York Dog Bites! -> [Dashboard](https://public.tableau.com/views/NewYorkCityDogBites/NYCDogBites?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 #### If you would like to like to interact with the dataset please click the link, otherwise I have made a pdf copy within this repositry as a pdf to those who would prefer to view as it is.
 #### Link to the original dataset -> [Original Dataset](https://data.cityofnewyork.us/Health/DOHMH-Dog-Bite-Data/rsgh-akpg)
 
