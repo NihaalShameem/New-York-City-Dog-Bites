@@ -44,6 +44,23 @@ From the two screenshots we see there are a number of object variable types. Obj
 
 Last thing that needs to be fixed is our `age` variable, there are many inconsistent values. 
 
+In the first line we are converting the `Age` column to a string to use the string `.replace()` method on our dataset and replacing wherever we see a 'Y' with a blank. Then we add `regex= False` because we want python to treat `'Y'` as a literal string rather than as a regex pattern and assigns all that back to our age variable. <br>
+![image](https://github.com/user-attachments/assets/f70e0550-1906-44ef-9071-cf715192aadd)
+
+This next line takes our new text(str) variable and converts that variable to a number and for the values that give an error we handle them using `errors='coerce'`. What thisty does is makes all the values that give errors an `NaN` value. <br>
+![image](https://github.com/user-attachments/assets/b0647c1a-df26-4de7-a1e7-1743fd8859fd)
+
+We also have a number of items that are invalid values within this column, so for that we can replace them using the `.replace()` function, passing through infinite values, both negative and positive, and then replacing them with `NaN`. 
+![image](https://github.com/user-attachments/assets/c964e6cb-3ffb-4190-a559-72b685ed8664)
+
+Lastly, what I want to do is make all those nan values equal -1 so we know to filter it out to get a better read on our dataset. Then we can change the datatype of our dataset to int as all the values are numbers!
+![image](https://github.com/user-attachments/assets/cb0a45a5-7717-4682-9fe8-e6090e0f4b28)
+
+Lastly lets see the unique age values within our dataset after cleaning the column. 
+![image](https://github.com/user-attachments/assets/c6d4365d-4f2a-449d-afb5-14bbef558140)
+
+**With our dataset cleaned and prepped, we save the updated dataset to a CSV file for further analysis and visualization using Tableau. This cleaned dataset will enable us to build a detailed dashboard and extract meaningful insights about dog bites.**
+![Screenshot 2024-07-04 171647](https://github.com/user-attachments/assets/fe21c3ed-5c0e-41e9-8862-fb4ce15ec9b6)
 
 
 ## Construct 
