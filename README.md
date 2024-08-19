@@ -63,13 +63,25 @@ Lastly lets see the unique age values within our dataset after cleaning the colu
 ![Screenshot 2024-07-04 171647](https://github.com/user-attachments/assets/93d4f9c3-6773-4db0-8716-ead0accf8187)
 
 ## Construct 
-After the data was cleaned, exploratory data analysis within Google Sheets with the help of pivot tables, allows a visual representation of insights. For this project I used Google Data Studio which is now refered to as Looker Studio. Within this dataset I provided many visualizations such as tables, bar graphs, heat map, and straight text. Using this dashboard I am able to share my findings. 
+With the data now cleaned and prepared, we have generated a series of insightful visualizations to facilitate our exploratory data analysis (EDA). These charts are created using Matplotlib and Seaborn in Python, effectively presenting the data in a clear and comprehensive way!
+
+![image](https://github.com/user-attachments/assets/04529a1a-15e8-4652-bc14-5898a4b068d9)
+![image](https://github.com/user-attachments/assets/83ebe493-2187-4822-9812-912fede237b4)
+![image](https://github.com/user-attachments/assets/8de86bcf-7dc5-472e-81d4-af9487b4cdb6)
+![image](https://github.com/user-attachments/assets/d4828a24-8b5e-4211-9a48-48bc46d93996)
+![image](https://github.com/user-attachments/assets/ad8ca5b5-f1e4-4d51-892f-506f6751b62c)
 
 ## Share 
-From analyzing the datset I found many insights that could help potential dog owners with their selection! 
-- Pitbulls were the most vicious dogs in NYC from the dataset by a significant margin followed by mixed breeds, Shih Zhu, and German Shepards. (Pitbull - 35% of bites, Mixed- 13%, German Shepard 7%, and Shih Tzu at 9%)
-- Most of the dogs that bite were between the ages of 1 and 5. This could mean that one is better off getting a dog from birth to self-train them or to obtain an older dog that has already been trained for a couple of years. 
-- The borough with the most bite cases was Queens, followed by Manhattan, and lastly Brooklyn. Progressive years and dog bites have a negative relationship, this means that as the years have gone by between 2015 and 2022 dog bites have declined. 
-- Male dogs accounted for more than 70% of bites, while females only accounted for 27%. One other insight I found interesting was whether a dog being spayed or neutered made it prone to attack more. From putting the data into a pivot table it seemed that 51% were neutered and spayed while 49.5% were not. At first it showed a difference was not apparent, but then I added breed and it showed that the top dogs that were prone to bite were not spayed or neutered!
+**From analyzing the datset I found many insights that could help potential dog owners with their selection!** 
 
+*Below are some of the Insights that I have found:*
+
+- **Pitbulls** were the most vicious dogs in NYC from the dataset by a significant margin followed by **Shih Zhu,German Shepards, and Mixed/Other**. (Pitbull - 22% of bites, Shih Tzu at 4%,Chihuahua at 3.5%, German Shepard at 3.4%, and lastly Mixed/Other at 3.09%)
+- Most of the dogs with the highest bite total were between the ages of 1 and 5. The breed associated with these dog teenager bites were Pitbulls, Shih Tzu, and German Shepards. This could mean that one is better off getting a dog from birth to self-train them or to obtain an older dog that has already been trained for a couple of years.
+- The borough with the most bites cases was **Queens** followed closely by *Manhattan and Brooklyn*. ALso, progressive years and dog bites have a negative relationship, this means that as the years have gone by between *2015 and 2022* dog bites have declined.
+- Another question I had was whether or not a dog being Spayed had a profound impact on dog bites?
+Well, almost **74** percent of bites were commited by dogs that were not spayed, while dogs that were spayed only accounted for **25** percent of bites.
+- Dog Bites were at a high from 2015 through 2019 , and dropped during 2020 and 2021.
+- Bites were at a high during the *summer months (June-August)* and followed closely by *spring (April-May)*. These months were also very high during year **2017 and 2018**.
+- **Saturday and Sunday** peaked as top bite days throughout the year. They also seemed to be especially high during the *summner months*.
 
