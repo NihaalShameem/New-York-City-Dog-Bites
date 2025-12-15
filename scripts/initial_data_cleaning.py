@@ -27,8 +27,8 @@ import numpy as np
 import datetime as dt
 
 # Load the dataset
-# Note: You may need to update the path if moving this code to a different computer
-data = pd.read_csv(r'C:\Users\nihaa\Downloads\DOHMH_Dog_Bite_Data_20251212.csv')
+# Note: Update with your own path with downloaded dataset from DOHM Websited
+data = pd.read_csv(r'')
 
 # --- Initial Inspection ---
 print("Initial Data Info:")
@@ -74,3 +74,10 @@ print(data[['Breed', 'ZipCode']].isnull().sum())
 
 # Display first few rows of the cleaned data
 data.head()
+
+# Downloading to CSV to then upload into SQL for futher analysis
+# Update the below code with your own path to download as CSV
+file_path = r''
+data.to_csv(file_path)
+
+
