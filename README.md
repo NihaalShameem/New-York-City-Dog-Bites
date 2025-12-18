@@ -20,15 +20,15 @@
 📂 NYC-Operational-Risk-and-Trend-Analysis
 │
 ├── 📜 README.md              <-- Executive Summary & Strategic Report
-├── 📂 sql_queries            <-- Full T-SQL scripts for all 12 business questions
-│   ├── 01_pareto_hotspots.sql
-│   ├── 02_yoy_growth.sql
-│   ├── 03_risk_categorization.sql
+├── 📂 scripts                <-- Python ETL & T-SQL Analysis Scripts
+│   ├── 01_data_cleaning.py
+│   ├── 02_pareto_hotspots.sql
+│   ├── 03_yoy_growth.sql
 │   └── ...
 ├── 📂 visualizations         <-- Tableau Dashboards & Static Charts
 │   ├── risk_trend_2024.png
 │   └── bronx_vet_desert_map.png
-└── 📂 dataset                   <-- Raw & Cleaned Datasets
+└── 📂 data                   <-- Raw & Cleaned Datasets
 ```
 
 ---
