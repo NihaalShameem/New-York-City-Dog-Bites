@@ -1,4 +1,4 @@
-# New-York-City-Dog-Bites
+# NYC-Operational-Risk-Audit
 #### This is a link to my report on New York Dog Bites! -> [Dashboard](https://public.tableau.com/views/NewYorkCityDogBites/NYCDogBites?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 #### If you would like to like to interact with the dataset please click the link, otherwise I have made a pdf copy within this repositry as a pdf to those who would prefer to view as it is.
 #### Link to the original dataset -> [Original Dataset](https://data.cityofnewyork.us/Health/DOHMH-Dog-Bite-Data/rsgh-akpg)
