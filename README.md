@@ -29,3 +29,15 @@
 │   ├── risk_trend_2024.png
 │   └── bronx_vet_desert_map.png
 └── 📂 dataset                   <-- Raw & Cleaned Datasets
+```
+
+---
+
+## 📖 Executive Summary
+My analysis revealed that **2024 was the most volatile year on record**, shattering the pre-pandemic baseline. The data suggests this surge is not random, but driven by three systemic factors:
+
+1. A **"Compliance Gap"** in Spay/Neuter rates for specific demographic segments.
+
+2. The **"Pandemic Echo"**, with a wave of under-socialized subjects reaching maturity.
+
+3. **Geographic Inequality**, specifically in veterinary access in The Bronx.
